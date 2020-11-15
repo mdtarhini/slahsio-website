@@ -1330,20 +1330,20 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## header logo
  * ------------------------------------------------------------------- */
-/* .header-logo {
+.header-logo {
   display: inline-block;
   position: absolute;
+  margin: 0;
   padding: 0;
-  left: 10px;
-  top: 10%;
+  left: 40px;
+  top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 501;
-  transform: rotate(-1deg);
-} */
+}
 
-.site-logo {
+.header-logo a {
   display: block;
   margin: 9px 0 0 0;
   padding: 0;
@@ -1352,11 +1352,15 @@ input::-moz-focus-inner {
   /* width: 120px; */
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-family: "Dancing Script", cursive;
+  /* font-family: "Dancing Script", cursive; */
   /* font-family: "Monoton", cursive; */
-  font-size: x-large;
+  font-family: "Allura", cursive;
+  /* font-family: 'Italianno', cursive; */
+  font-size: 50px;
   color: white;
-  transform: rotate(-1deg);
+}
+#header-logo-suffix {
+  color: var(--accent-color);
 }
 
 /* ------------------------------------------------------------------- 

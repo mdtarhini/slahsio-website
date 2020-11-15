@@ -65,7 +65,7 @@
       return false;
     }
 
-    if (!data.email || !data.name || data.message) {
+    if (!data.email || !data.name || !data.message) {
       $(".message-warning").html("All fields are required!");
       $(".message-warning").slideDown("slow");
     } else if (!validateEmail(data.email)) {

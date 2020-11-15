@@ -23,8 +23,7 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/71adb0de48.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Monoton&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Italianno&display=swap" rel="stylesheet">
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
@@ -39,16 +38,19 @@
     ================================================== -->
     <header class="s-header">
 
-       
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <!-- <img src="images/logo.png" alt="Homepage"> -->
+                <span>Slashi</span><span id="header-logo-suffix">o</span>
+            </a>
+        </div>
+
         <nav class="header-nav">
 
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
             <div class="header-nav__content">
-                <a class="site-logo" href="index.html">
-                    <img src="images/logo_white.png" alt="Homepage" width="120vw">
-                </a>
-        
+                <h3>Navigation</h3>
                 
                 <ul class="header-nav__list">
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
@@ -84,7 +86,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="./images/profile.jpg" data-natural-width=3232 data-natural-height=3630 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/profile.jpg" data-natural-width=3212 data-natural-height=2926 data-position-y=top>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -183,6 +185,8 @@
                 </div>
             </div>
 
+
+
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="fas fa-utensils"></i>
@@ -219,24 +223,34 @@
         <div class="row works-content">
             <div class="col-full masonry-wrap">
                 <div class="masonry" id="masonryWarppaer">
-                    
-                    
-                    <div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="beetle" data-size="2100x1400"><img src="images/portfolio/the-beetle.jpg" 
-                        srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="beetle image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">beetle <p class="item-folio__cat">photography</p></div><div class="item-folio__caption"><p>this is a beetle</p></div></div></div>
-                   <div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Green" data-size="2100x1400"><img src="images/portfolio/grow-green.jpg" 
-                        srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="green image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Green <p class="item-folio__cat">photography</p></div><div class="item-folio__caption"><p>this is a beetle</p></div></div></div>
-                   <div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="beetle" data-size="2100x1400"><img src="images/portfolio/the-beetle.jpg" 
-                        srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="beetle image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">beetle <p class="item-folio__cat">photography</p></div><div class="item-folio__caption"><p>this is a beetle</p></div></div></div>
-                   <div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Green" data-size="2100x1400"><img src="images/portfolio/grow-green.jpg" 
-                        srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="green image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Green <p class="item-folio__cat">photography</p></div><div class="item-folio__caption"><p>this is a beetle</p></div></div></div>
-                   <div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="beetle" data-size="2100x1400"><img src="images/portfolio/the-beetle.jpg" 
-                        srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="beetle image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">beetle <p class="item-folio__cat">photography</p></div><div class="item-folio__caption"><p>this is a beetle</p></div></div></div>
-                   <div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Green" data-size="2100x1400"><img src="images/portfolio/grow-green.jpg" 
-                        srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="green image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Green <p class="item-folio__cat">photography</p></div><div class="item-folio__caption"><p>this is a beetle</p></div></div></div>
                    
+                    
+      <!-- new -->
+<div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/chocolate_g.jpg" class="thumb-link" title="Chocolate" data-size="2000x3000"><img src="images/portfolio/chocolate_1x.jpg" 
+    srcset="images/portfolio/chocolate_1x.jpg 1x, images/portfolio/chocolate_2x.jpg 2x" alt="Chocolate image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Chocolate <p class="item-folio__cat">#Photography, #food_stlying</p></div></div></div>
+<!-- new -->
+<div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/BROOKIES_g.jpg" class="thumb-link" title="Brookies" data-size="1333x2000"><img src="images/portfolio/BROOKIES_1x.jpg" 
+    srcset="images/portfolio/BROOKIES_1x.jpg 1x, images/portfolio/BROOKIES_2x.jpg 2x" alt="brookies image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Brookies <p class="item-folio__cat">#Photography, #food_stlying</p></div></div></div>
+<!-- new -->
+<div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/orangeCake_g.jpg" class="thumb-link" title="Orange Cake" data-size="2000x2762"><img src="images/portfolio/orangeCake_1x.jpg" 
+    srcset="images/portfolio/orangeCake_1x.jpg 1x, images/portfolio/orangeCake_2x.jpg 2x" alt="Orange cake image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Orange Cake <p class="item-folio__cat">#Photography, #food_stlying</p></div></div></div>
+<!-- new -->
+<div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/orangeJuice_g.jpg" class="thumb-link" title="Orange Juice" data-size="2000x3000"><img src="images/portfolio/orangeJuice_1x.jpg" 
+    srcset="images/portfolio/orangeJuice_1x.jpg 1x, images/portfolio/orangeJuice_2x.jpg 2x" alt="orange juice image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Orange Juice <p class="item-folio__cat">#Photography, #food_stlying</p></div></div></div>
+<!-- new -->
+<div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/cappuccino_g.jpg" class="thumb-link" title="Cappuccino" data-size="2000x3000"><img src="images/portfolio/cappuccino_1x.jpg" 
+    srcset="images/portfolio/cappuccino_1x.jpg 1x, images/portfolio/cappuccino_2x.jpg 2x" alt="Cappuccino image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Cappuccino <p class="item-folio__cat">#Photography, #food_stlying</p></div></div></div>
+<!-- new -->
+<div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/lotus_g.jpg" class="thumb-link" title="Lotus Balls" data-size="2000x3000"><img src="images/portfolio/lotus_1x.jpg" 
+    srcset="images/portfolio/lotus_1x.jpg 1x, images/portfolio/lotus_2x.jpg 2x" alt="lotus balls image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Lotus Balls <p class="item-folio__cat">#Photography, #food_stlying</p></div></div></div>
+<!-- new -->
+<div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/rusk_g.jpg" class="thumb-link" title="Rusk With Thyme" data-size="2000x3000"><img src="images/portfolio/rusk_1x.jpg" 
+    srcset="images/portfolio/rusk_1x.jpg 1x, images/portfolio/rusk_2x.jpg 2x" alt="Rusk image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Rusk With Thyme <p class="item-folio__cat">#Photography, #food_stlying</p></div></div></div>
+<!-- new -->
+<div class="masonry__brick" data-aos="fade-up"><div class="item-folio"><div class="item-folio__thumb"><a href="images/portfolio/gallery/mojito_g.jpg" class="thumb-link" title="Strawberry Mojito" data-size="2000x3001"><img src="images/portfolio/mojito_1x.jpg" 
+    srcset="images/portfolio/mojito_1x.jpg 1x, images/portfolio/mojito_2x.jpg 2x" alt="strawberry mojito image"> </a></div><div class="item-folio__text"><h3 class="item-folio__title">Strawberry Mojito <p class="item-folio__cat">#Photography, #food_stlying</p></div></div></div>
 
-                   
-
+        
                 </div> <!-- end masonry -->
             </div> <!-- end col-full -->
         </div> <!-- end works-content -->
