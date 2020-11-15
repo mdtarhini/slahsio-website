@@ -1330,20 +1330,20 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## header logo
  * ------------------------------------------------------------------- */
-.header-logo {
+/* .header-logo {
   display: inline-block;
   position: absolute;
-  margin: 0;
   padding: 0;
-  left: 40px;
-  top: 50%;
+  left: 10px;
+  top: 10%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 501;
-}
+  transform: rotate(-1deg);
+} */
 
-.header-logo a {
+.site-logo {
   display: block;
   margin: 9px 0 0 0;
   padding: 0;
@@ -1356,9 +1356,7 @@ input::-moz-focus-inner {
   /* font-family: "Monoton", cursive; */
   font-size: x-large;
   color: white;
-}
-#header-logo-suffix {
-  color: var(--accent-color);
+  transform: rotate(-1deg);
 }
 
 /* ------------------------------------------------------------------- 
