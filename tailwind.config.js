@@ -21,7 +21,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        "slashio-profile": "url('./images/profile.jpg')",
+        "slashio-profile": "url('./images/profile.webp')",
       }),
       colors: {
         "dark-gray": "#111111",
