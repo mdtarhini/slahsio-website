@@ -1,6 +1,8 @@
 module.exports = {
-  purge: [],
-  darkMode: "class", // or 'media' or 'class'
+  purge: [
+    './*.html',
+  ],
+  darkMode: false,
   theme: {
     cursor: {
       auto: "auto",
