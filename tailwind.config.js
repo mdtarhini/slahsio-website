@@ -1,7 +1,8 @@
 module.exports = {
-  purge: [
-    './*.html',
-  ],
+  purge: {
+    enabled: true,
+    content: ["src/*.html"],
+  },
   darkMode: false,
   theme: {
     cursor: {
@@ -23,7 +24,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: (theme) => ({
-        "slashio-profile": "url('./images/profile.webp')",
+        "slashio-profile": "url('../images/profile.webp')",
       }),
       colors: {
         "dark-gray": "#111111",
