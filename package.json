@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss styles.css -o src/CSS/styles.css",
-    "dev": "npm run build && live-server src --port=8080"
+    "dev": "npm run build && live-server --port=8080"
   },
   "repository": {
     "type": "git",
